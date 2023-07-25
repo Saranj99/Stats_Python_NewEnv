@@ -1,20 +1,10 @@
-name: base
+name: example-environment
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - python=3.9
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - statsmodels
-  - partd
-  - bokeh
-  - dask
+  - python=3.11
   - r-base=4.0
   - r-dplyr
   - r-ggplot2
@@ -22,11 +12,19 @@ dependencies:
   - r-tidyverse
   - r-plotly
   - r-stringr
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
   - pip
-  - ols
   - pip:
-    - plotly
     - matplotlib
     - scikit-learn
-    - numpy
-    
+    - statsmodels
+    - seaborn
+
