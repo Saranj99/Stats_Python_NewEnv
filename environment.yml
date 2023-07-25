@@ -11,6 +11,7 @@ dependencies:
   - matplotlib
   - dill
   - pandas
+  - statsmodels
   - partd
   - bokeh
   - dask
@@ -20,12 +21,12 @@ dependencies:
   - r-reshape2
   - r-tidyverse
   - r-plotly
-  - r-shiny
   - r-stringr
   - pip
+  - ols
   - pip:
     - plotly
     - matplotlib
     - scikit-learn
     - numpy
-    -
+    
