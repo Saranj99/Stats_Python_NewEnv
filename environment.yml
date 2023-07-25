@@ -1,17 +1,10 @@
-name: example-environment
+name: base
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - python=3.11
-  - r-base=4.0
-  - r-dplyr
-  - r-ggplot2
-  - r-reshape2
-  - r-tidyverse
-  - r-plotly
-  - r-stringr
+  - python=3.9
   - numpy
   - psutil
   - toolz
@@ -21,10 +14,18 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - r-base=4.0
+  - r-dplyr
+  - r-ggplot2
+  - r-reshape2
+  - r-tidyverse
+  - r-plotly
+  - r-shiny
+  - r-stringr
   - pip
   - pip:
+    - plotly
     - matplotlib
     - scikit-learn
-    - statsmodels
-    - seaborn
-    
+    - numpy
+    -
